@@ -1,0 +1,55 @@
+# Ignore the virtual environment directory and environment variables file
+venv/
+.env/
+
+# Ignore Python cache directories
+myproject/myproject/__pycache__/
+myproject/users/__pycache__/
+
+# Ignore Python bytecode and other compiled files
+*.py[cod]
+*$py.class
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE specific files and directories
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore SQLite database files
+*.sqlite3
+myproject/db.sqlite3
+
+# Ignore the Django secret key and settings (if stored separately)
+secret_key.txt
+config/settings/local.py
+config/settings/*.local
+
+# Ignore compiled static files and node modules
+staticfiles/
+assets/
+node_modules/
+
+# Ignore file storage for Django's FileField/ImageField
+media/
+
+# Ignore Django migrations directories (specific to users app)
+myproject/users/migrations/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore type checking and linting tool caches
+.mypy_cache/
+.pyre/
+.pylint.d/
+
+# Ignore test output and environment management directories
+.tox/
+.nox/
