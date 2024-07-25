@@ -1,6 +1,6 @@
 # Django Login Registration with JWT Tokens
 
-A simple Django application for user registration, login, and JWT-based authentication using Django REST framework and drf-yasg for API documentation.
+A simple Django application for user registration, login, and JWT-based authentication using Django REST framework and Swagger for API documentation.
 
 ## Features
 
