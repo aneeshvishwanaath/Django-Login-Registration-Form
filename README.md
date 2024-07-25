@@ -135,3 +135,6 @@ Swagger documentation is available at `/swagger/`.
 
 This project is licensed under the MIT License.
 ```
+
+Replace the placeholder `your_username`, `your_password`, `refresh_token`, and `access_token` with actual values when testing the API endpoints. Adjust the Python and Django versions in the requirements section based on the versions used in your project.
+```
